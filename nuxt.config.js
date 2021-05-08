@@ -64,13 +64,13 @@ export default {
     },
   },
 
-  router: {
-    base: '/vue-nuxt-app/'
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
+  router: {
+    base: '/vue-nuxt-app/'
+  },
+  
   generate: {
     dir: 'docs'
   },
